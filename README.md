@@ -12,7 +12,7 @@ Two types of measurements were implemented:
   - Python commands Arduino to start moving the robot in steps.
   - Simultaniously, Python collects the measurements from the Spectrum Analyzer in a 3D array.
   - At the end, the robot moves back to the origin.
-  - With using MatplotLib, a colormap is plotted that represents the results.
+  - With using MatplotLib, a colormap is plotted that represents the results (RESULTS.png).
  
  2. Robot Control by Mouse
   - GUI (Tkinter) collects the input values from the user (size of the tested PCB, picture, ambient radiation test etc.).
