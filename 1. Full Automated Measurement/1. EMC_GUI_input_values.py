@@ -20,8 +20,8 @@ import numpy as np
 import matplotlib.pyplot as plt
 from PIL import Image, ImageTk
 import serial.tools.list_ports
-from Spectrum_analyzer import Agilent_N9320B
-from Spectrum_analyzer import Rigol_DSA800
+from Spectrum_analyzer_control import Agilent_N9320B
+from Spectrum_analyzer_control import Rigol_DSA800
 
 # If you are using the Rigol analyzer, you should comment out the next line(Agilent_N9320B()) and delete the hashtag sign befor the "my_instrument = Rigol_DSA800()" line.
 my_instrument = Agilent_N9320B()
